@@ -15,6 +15,7 @@
 		<apache.http>4.5.2</apache.http>
 		<jackson>2.8.8</jackson>
 		<hypernyms>0.0.1-SNAPSHOT</hypernyms>
+		<server.client>0.0.1-SNAPSHOT</server.client>
 		<commons>1.10</commons>
 		<xstream>1.3.1</xstream>
 	</properties>
@@ -29,6 +30,11 @@
 			<groupId>com.secure</groupId>
 			<artifactId>hypernyms</artifactId>
 			<version>${hypernyms}</version>
+		</dependency>
+		<dependency>
+			<groupId>org</groupId>
+			<artifactId>server.client</artifactId>
+			<version>${server.client}</version>
 		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>com.thoughtworks.xstream</groupId> -->
@@ -74,12 +80,6 @@
 			<artifactId>httpmime</artifactId>
 			<version>${apache.http}</version>
 			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>${commons}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
